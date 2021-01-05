@@ -1,0 +1,44 @@
+1.let const
+
+let for variables, const for constants that means we are naot assigning any value to it once we assign a value to it
+Ex:
+const start = this.pageNumber * this.size,
+      end = start + this.size;
+      
+Even though the value of pageNumber, size Changes
+start is const.
+
+2.Arrow functions   
+
+3.Export, Import
+
+4.Classes:
+
+Blueprints for objects
+
+5.Spread and Rest operators  ...
+
+let newarray = [...oldarray,1,2]
+let newobject = {...oldobject,newprop:5}
+
+const numbers = [1,2,3];
+const number = 4;
+// let newnumbers = [...numbers,number];
+numbers.push(number)
+console.log(numbers);
+
+const person = {
+  name: "max"
+}
+
+const newperson = {
+  ...person,
+  age: 18
+}
+console.log(newperson);
+
+const filter = (...args) => {
+  return args.filter(ele => ele === 1)
+}
+
+console.log(filter(1,2,3,1,51,1,56))
