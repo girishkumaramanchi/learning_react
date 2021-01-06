@@ -1,0 +1,7 @@
+JSX allow us to write HTML code in javascript.
+class App extends Component {
+  import React, { Component } from 'react';
+  render(){
+    return React.createElement('div', {className:"App"}, React.createElement('h1',null,  'I\'m React App'));
+  }
+}
