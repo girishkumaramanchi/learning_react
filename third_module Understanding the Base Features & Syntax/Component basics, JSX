@@ -5,3 +5,5 @@ class App extends Component {
     return React.createElement('div', {className:"App"}, React.createElement('h1',null,  'I\'m React App'));
   }
 }
+
+In react class is already reserved so we will use className in JSX
