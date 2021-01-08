@@ -1,3 +1,5 @@
+state is the most important react hook
+
 state can only be used in extend component classes.
 
 React can only re-render using 2 ways 1. state 2. props
@@ -7,4 +9,31 @@ But
 functional state will override the old value with the new one we want to update
 Therefore
 we need to fill all the data so that we won't miss any of the data we may nned to use in the future.
+
+In functional state we will use multiple useState to store individual variables.
+we call it multiple separated state slices
+
+const [ personsState, updatedPersonsState] = useState(
+      {
+        persons: [
+          { name:"Tatsuya", age:18 },
+          { name:"Miyuki", age:17 },
+          { name:"Lina", age:17 },
+          { name:"X", age:undefined }
+        ],
+        // otherState: "some other value"
+      }
+    );
+
+const [ otherState, updatedOtherState] = useState("some other value");
+
+const App = props => {} this is functional 
+
+class App extends Component {} this is component state
+
+stateless - dumb - presentational components which are not having own state use as many as possible
+
+stateful - smart - container - class based component - component state, functional state having state use few of these component in the project is a good thing.
+
+
 
