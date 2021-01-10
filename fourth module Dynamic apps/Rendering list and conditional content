@@ -1,0 +1,5 @@
+The code we write all is JSX so we can use all the js functionalities in the {} curly braces.
+we want to render the content conditionally so we can use terinary constructor.
+
+condition ? exp1 : exp2
+condition ? true execute exp1 : false execute exp2
