@@ -1,0 +1,14 @@
+Components are the basic building blocks.
+
+we can split the page into different components.
+
+constructor   Call super(props)   can setup state  don't cause side effects such as http requests
+
+getDerivedStateFromProps(props, state)    sync state     don't cause side effects such as http requests
+
+render()  prepare & structure your JSX code
+
+renderChildComponents
+
+componentDidMount()    don't cause side effects such as http requests   don't setup state  because it will re-render the components
+
