@@ -1,0 +1,13 @@
+getDerivedStateFromProps   sync state to props, don't cause side effects
+
+shouldComponentUpdate()    decide whether the component should update or not, don't cause side effects
+
+render()  render the component, prepare and structure your JSX code
+
+updateChildComponentProps
+
+getSnapshotBeforeUpdate()  Last minute DOM operations, don't cause side effects
+
+componentDidUpdate() can cause side effects, don't update state a it will cause re-render
+
+    
