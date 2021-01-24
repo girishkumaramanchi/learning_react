@@ -1,0 +1,11 @@
+getDerivedStateFromProps
+
+shouldComponentUpdate()
+
+getSnapshotBeforeUpdate()
+    
+render()
+
+componentDidUpdate() 
+
+    
